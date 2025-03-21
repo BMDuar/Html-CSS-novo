@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <style>
+        body {
+            background-color: #696969;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo da navegação fixa no topo */
+        nav.topo {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            z-index: 10;
+        }
+
+        nav.topo ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav.topo ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav.topo ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav.topo ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilo da navegação lateral esquerda */
+        nav.lateral {
+            position: absolute;
+            margin-right: 10px;
+            top: 51vw;
+            left: 0;
+            width: 200px;
+            background-color: #444;
+            color: #fff;
+            padding: 15px;
+            height: 50.5vw;
+        }
+
+        nav.lateral ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav.lateral ul li {
+            margin-bottom: 15px;
+        }
+
+        nav.lateral ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav.lateral ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .titulo,
+        h1,
+        h3 {
+            text-align: center;
+            color: #fff;
+        }
+
+        .titulo {
+            margin-top: 17%;
+            margin-bottom: 20%;
+        }
+
+        .titulo,
+        h3 {
+            font-size: 3vw;
+        }
+
+        .partebaixo {
+            width: 97.9%;
+            height: 50vw;
+            background-color: #fff;
+            text-align: center;
+            font-size: large;
+            padding: 20px;
+        }
+
+        .sobrenos,
+        .vejamais {
+            color: black;
+        }
+
+        footer {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            color: #fff;
+            height: 2vw;
+            padding: 20px 0;
+            background-color: #333;
+        }
+
+        img{
+            height: 500px;
+            width: 500px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navegação fixa no topo -->
+    <nav class="topo">
+        <ul>
+            <li><a href="index.html">Sobre Nós</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="metodos.html">Métodos</a></li>
+            <li><a href="imagens.html">Imagens</a></li>
+        </ul>
+    </nav>
+
+    <!-- Navegação lateral esquerda -->
+    <nav class="lateral">
+        <ul>
+            <li><a href="index.html">Sobre Nós</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="metodos.html">Métodos</a></li>
+            <li><a href="imagens.html">Imagens</a></li>
+        </ul>
+    </nav>
+
+    <div class="titulo">
+        <h1>Z</h1>
+        <h3>Empresa de Tecnologia</h3>
+    </div>
+
+    <section id="sobre" class="partebaixo">
+        <h3 class="sobrenos">Imagens da Equipe</h3>
+        <img src="C:\Users\calouros\Desktop\Fatec\DW\equipe.jfif" alt="">    
+        <img src="C:\Users\calouros\Desktop\Fatec\DW\equipe2.jfif" alt="">
+    </section>
+    
+    <footer>
+        Bento Martins Duarte // Todos os direitos reservados
+    </footer>
+
+</body>
+
+</html>
